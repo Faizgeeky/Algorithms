@@ -1,8 +1,7 @@
-# ADA PGM2 For Binary Search
+# ADA PGM For Binary Search
 
 arr = [2, 15, 15, 25, 42, 54, 75, 85]
 
-#method
 def search(arr1,target):
     left = 0
     right = int(len(arr1)) - 1
