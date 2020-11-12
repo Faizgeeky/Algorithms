@@ -12,19 +12,6 @@ def Insertion_sort(arr):
         arr[j + 1] = key 
     return arr
 
-       
-       
-       
-       
-        # for j in range(i-1,0, -1):
-        #     print("J",j)
-        #     if arr[j] < cur:
-        #         arr[j+1] =arr[j]
-        #     else:
-        #         arr[j+1] = cur
-        #         break
-                
-
 if __name__ == "__main__":
     a = Insertion_sort(arr)
     print(a)
