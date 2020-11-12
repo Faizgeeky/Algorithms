@@ -9,15 +9,16 @@ def selection_sort(arr):
         for j in range(i,len(arr)-1):   
             if arr[j] < arr[min]:
                 min = j # Replace Var min with minumum value
+             
 
         temp = arr[i] # store temp with current val
         arr[i] = arr[min] # replace current index wit minimum value
         arr[min] = temp # give temp value to min index 
-        
+    return arr
 
 
 
 if __name__ == "__main__":
-    selection_sort(arr)
-    print(arr)
+    a= selection_sort(arr)
+    print(a)
 
