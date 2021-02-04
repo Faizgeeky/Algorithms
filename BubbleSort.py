@@ -4,9 +4,8 @@ arr = [25,42,15,54,92,75,85]
 
 
 def BubbleSort(arr):
-    for i in range(len(arr)-1,0,-1):
-        # loop reverse as we need -1 elemnt each time 
-        for j in range(i): 
+    for i in range(0,len(arr)-1,1):
+        for j in range(0,len(arr)-1,1): 
             # loop it till i
             if arr[j] > arr[j+1]:
                 #Swapping

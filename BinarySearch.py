@@ -13,7 +13,8 @@ def search(arr1,target):
             right = mid -1
         elif arr1[mid] < target:
             left = mid + 1
-    return -1
+    return "NOt EXIST!"
     #if Element is Not present
-print(search(arr,42))
+element = int(input("Please enter element to search :-"))
+print(search(arr,element))
 # search(sorted_arr,42,len(sorted_arr))

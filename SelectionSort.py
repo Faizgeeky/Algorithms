@@ -17,7 +17,6 @@ def selection_sort(arr):
     return arr
 
 
-
 if __name__ == "__main__":
     a= selection_sort(arr)
     print(a)
