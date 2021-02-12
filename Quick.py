@@ -31,5 +31,5 @@ def Quick(a,l,h):
 
 ar = Quick(A,0,len(A)-1)
 print(ar)
-print("Here")
+# print("Here")
     

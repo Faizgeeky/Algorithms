@@ -8,7 +8,7 @@ def selection_sort(arr):
 
         for j in range(i,len(arr)-1):   
             if arr[j] < arr[min]:
-                min = j # Replace Var min with minumum value
+                min = j  # Replace Var min with minumum value
              
 
         temp = arr[i] # store temp with current val

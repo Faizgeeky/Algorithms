@@ -10,5 +10,6 @@ for i in l1:
         c += 1
         print(i, " is located at position of ",j)
     
-    if c==0:
-        print("Sorry the no you entered is not exist!")
+if c==0:
+    print("Sorry the no you entered is not exist!")
+
